@@ -45,14 +45,6 @@ def part_two(data: list[list[str]]):
     return int("".join(data[0]), 2) * int("".join(data2[0]), 2)
 
 
-def part_one_esoteric(data):
-    ...
-
-
-def part_two_esoteric(data):
-    ...
-
-
 def main():
     data = parse_data()
     print(part_one(data))

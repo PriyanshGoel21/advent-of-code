@@ -31,17 +31,6 @@ def part_two(data: list[str]):
                 depth += aim * int(x)
             case "down":
                 aim += int(x)
-            case "up":
-                aim -= int(x)
-    return forward * depth
-
-
-def part_one_esoteric(data):
-    ...
-
-
-def part_two_esoteric(data):
-    ...
 
 
 def main():
