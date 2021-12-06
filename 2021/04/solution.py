@@ -82,8 +82,8 @@ def get_board(boards, index):
 def main():
     numbers, boards = parse_data()
     simulate_game(numbers, boards)
-    print(get_board(boards, 0))
-    print(get_board(boards, len(boards) - 1))
+    print(get_board(boards, 0))  # Part 1
+    print(get_board(boards, len(boards) - 1))  # Part 2
 
 
 if __name__ == "__main__":
